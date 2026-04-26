@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColdTrace Landing Page</title>
+  <meta name="description" content="ColdTrace landing page base for the Aplicaciones Web final project.">
+  <link rel="icon" type="image/png" href="assets/images/logo/coldtrace-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/variables.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <a class="site-header__brand" href="#home" aria-label="ColdTrace home">
+      <img src="assets/images/logo/coldtrace-logo.png" alt="ColdTrace logo">
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#showcase" data-i18n="nav.showcase">Showcase</a>
+      <a href="#signup" data-i18n="nav.signup">Sign up</a>
+      <a href="#footer" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="language-switcher" aria-label="Language selector">
+      <button type="button" data-locale-option="en-US" aria-pressed="true">EN</button>
+      <button type="button" data-locale-option="es-419" aria-pressed="false">ES</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="section section--hero" aria-labelledby="hero-title" data-section-owner="feature/header-hero">
+      <p class="section__eyebrow" data-i18n="hero.eyebrow">Project base</p>
+      <h1 id="hero-title" data-i18n="hero.title">ColdTrace landing page foundation</h1>
+      <p data-i18n="hero.description">
+        Base structure for the landing page. Each feature branch should replace these placeholders with final section content.
+      </p>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title" data-section-owner="feature/app-features">
+      <p class="section__eyebrow" data-i18n="sections.appFeatures.branch">feature/app-features</p>
+      <h2 id="features-title" data-i18n="sections.appFeatures.title">App features</h2>
+      <p data-i18n="sections.appFeatures.description">Reserved for product features and app capability messaging.</p>
+    </section>
+
+    <section class="section" id="showcase" aria-labelledby="showcase-title" data-section-owner="feature/showcase-why">
+      <p class="section__eyebrow" data-i18n="sections.showcaseWhy.branch">feature/showcase-why</p>
+      <h2 id="showcase-title" data-i18n="sections.showcaseWhy.title">Showcase and why</h2>
+      <p data-i18n="sections.showcaseWhy.description">Reserved for product showcase, why section, social proof, and testimonials.</p>
+    </section>
+
+    <section class="section" id="signup" aria-labelledby="signup-title" data-section-owner="feature/overview-signup">
+      <p class="section__eyebrow" data-i18n="sections.overviewSignup.branch">feature/overview-signup</p>
+      <h2 id="signup-title" data-i18n="sections.overviewSignup.title">Overview and sign up</h2>
+      <p data-i18n="sections.overviewSignup.description">Reserved for the overview rail, signup/contact area, and conversion flow.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer" role="contentinfo" data-section-owner="feature/footer">
+    <p class="section__eyebrow" data-i18n="sections.footer.branch">feature/footer</p>
+    <p data-i18n="footer.copy">ColdTrace landing page base.</p>
+  </footer>
+
+  <script src="assets/scripts/i18n.js" defer></script>
+  <script src="assets/scripts/main.js" defer></script>
+</body>
+</html>

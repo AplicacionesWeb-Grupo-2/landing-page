@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "showcase": "Demostracion",
+    "signup": "Registro",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Base del proyecto",
+    "title": "Base de la landing page de ColdTrace",
+    "description": "Estructura base para la landing page. Cada rama feature debe reemplazar estos espacios con el contenido final de su seccion."
+  },
+  "sections": {
+    "appFeatures": {
+      "branch": "feature/app-features",
+      "title": "Funciones de la aplicacion",
+      "description": "Reservado para funciones del producto y mensajes de capacidades de la aplicacion."
+    },
+    "showcaseWhy": {
+      "branch": "feature/showcase-why",
+      "title": "Demostracion y por que",
+      "description": "Reservado para showcase del producto, seccion why, prueba social y testimonios."
+    },
+    "overviewSignup": {
+      "branch": "feature/overview-signup",
+      "title": "Resumen y registro",
+      "description": "Reservado para overview rail, area de registro/contacto y flujo de conversion."
+    },
+    "footer": {
+      "branch": "feature/footer"
+    }
+  },
+  "footer": {
+    "copy": "Base de la landing page de ColdTrace."
+  }
+}

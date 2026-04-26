@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "showcase": "Showcase",
+    "signup": "Sign up",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Project base",
+    "title": "ColdTrace landing page foundation",
+    "description": "Base structure for the landing page. Each feature branch should replace these placeholders with final section content."
+  },
+  "sections": {
+    "appFeatures": {
+      "branch": "feature/app-features",
+      "title": "App features",
+      "description": "Reserved for product features and app capability messaging."
+    },
+    "showcaseWhy": {
+      "branch": "feature/showcase-why",
+      "title": "Showcase and why",
+      "description": "Reserved for product showcase, why section, social proof, and testimonials."
+    },
+    "overviewSignup": {
+      "branch": "feature/overview-signup",
+      "title": "Overview and sign up",
+      "description": "Reserved for the overview rail, signup/contact area, and conversion flow."
+    },
+    "footer": {
+      "branch": "feature/footer"
+    }
+  },
+  "footer": {
+    "copy": "ColdTrace landing page base."
+  }
+}

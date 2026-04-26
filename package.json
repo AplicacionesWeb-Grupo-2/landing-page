@@ -1,0 +1,10 @@
+{
+  "name": "coldtrace-landing-page",
+  "version": "0.1.0",
+  "description": "Base structure for the ColdTrace landing page.",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "serve": "python3 -m http.server 5173"
+  }
+}

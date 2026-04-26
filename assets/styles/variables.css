@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #1b59f8;
+  --color-primary-dark: #0f3fc4;
+  --color-background: #ffffff;
+  --color-surface: #f6f8fc;
+  --color-border: #dde3ef;
+  --color-text: #1f2530;
+  --color-text-muted: #5f6673;
+  --font-family-base: "Inter", Arial, sans-serif;
+  --font-family-display: "Varela Round", "Inter", Arial, sans-serif;
+  --container-max: 1120px;
+}
