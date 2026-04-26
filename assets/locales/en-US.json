@@ -1,34 +1,40 @@
 {
   "nav": {
-    "home": "Home",
-    "features": "Features",
-    "showcase": "Showcase",
-    "signup": "Sign up",
-    "contact": "Contact"
+    "products": "Home",
+    "solutions": "Features",
+    "community": "Platform",
+    "resources": "Reviews",
+    "contact": "Contact",
+    "more": "More",
+    "language": "Language",
+    "signin": "Sign in",
+    "register": "Register now"
   },
   "hero": {
-    "eyebrow": "Project base",
-    "title": "ColdTrace landing page foundation",
-    "description": "Base structure for the landing page. Each feature branch should replace these placeholders with final section content."
+    "title": "All your storage infrastructure under a single intelligent platform",
+    "subtitle": "The dashboard to centralize your cold storage, manage hardware health, and ensure 100% regulatory compliance.",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "Mail",
+    "ctaDemo": "Try a demo"
   },
   "sections": {
     "appFeatures": {
-      "branch": "feature/app-features",
+      "branch": "future section",
       "title": "App features",
       "description": "Reserved for product features and app capability messaging."
     },
     "showcaseWhy": {
-      "branch": "feature/showcase-why",
+      "branch": "future section",
       "title": "Showcase and why",
       "description": "Reserved for product showcase, why section, social proof, and testimonials."
     },
     "overviewSignup": {
-      "branch": "feature/overview-signup",
+      "branch": "future section",
       "title": "Overview and sign up",
       "description": "Reserved for the overview rail, signup/contact area, and conversion flow."
     },
     "footer": {
-      "branch": "feature/footer"
+      "branch": "future footer"
     }
   },
   "footer": {
