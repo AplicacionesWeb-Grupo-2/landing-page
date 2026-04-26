@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         scrollToTarget(target, href);
+        setActivePill(href);
         history.replaceState(null, '', href);
         closeMobileMenu();
       }
@@ -137,10 +138,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const updateActiveFromViewport = () => {
     const header = document.querySelector('.site-header');
     const headerOffset = header ? header.offsetHeight + 24 : 96;
+    const viewportProbe = Math.max(headerOffset, window.innerHeight * 0.32);
+    const scrollProbe = window.scrollY + viewportProbe;
     let activeSection = sections[0];
 
     sections.forEach((section) => {
-      if (window.scrollY + headerOffset >= section.offsetTop) {
+      if (scrollProbe >= section.offsetTop) {
         activeSection = section;
       }
     });
