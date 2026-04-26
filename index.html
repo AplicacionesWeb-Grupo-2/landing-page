@@ -7,7 +7,7 @@
   <meta name="description" content="ColdTrace landing page base for the Aplicaciones Web final project.">
   <link rel="icon" type="image/png" href="assets/images/logo/coldtrace-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles/reset.css">
   <link rel="stylesheet" href="assets/styles/variables.css">
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/styles/components/why.css">
   <link rel="stylesheet" href="assets/styles/components/pricing.css">
   <link rel="stylesheet" href="assets/styles/components/signup.css">
+  <link rel="stylesheet" href="assets/styles/components/footer.css">
   <link rel="stylesheet" href="assets/styles/responsive.css">
 </head>
 <body>
@@ -36,10 +37,10 @@
 
       <ul class="navbar__menu">
         <li><a href="#home" class="nav-pill" data-i18n="nav.products">Home</a></li>
-        <li><a href="#home" class="nav-pill" data-i18n="nav.solutions">Features</a></li>
-        <li><a href="#home" class="nav-pill" data-i18n="nav.community">Platform</a></li>
-        <li><a href="#home" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
-        <li><a href="#home" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="#features" class="nav-pill" data-i18n="nav.solutions">Features</a></li>
+        <li><a href="#about-product" class="nav-pill" data-i18n="nav.community">Platform</a></li>
+        <li><a href="#why" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
+        <li><a href="#contact" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
       <div class="navbar__actions">
@@ -48,16 +49,16 @@
           <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
         </div>
         <a href="#signin" class="btn btn--ghost" data-i18n="nav.signin">Sign in</a>
-        <a href="#home" class="btn btn--primary" data-i18n="nav.register">Register now</a>
+        <a href="#contact" class="btn btn--primary" data-i18n="nav.register">Register now</a>
       </div>
 
       <div class="navbar__mobile-menu" id="mobile-nav-panel" hidden>
         <div class="navbar__mobile-links" aria-label="Mobile navigation">
           <a href="#home" class="navbar__mobile-link" data-i18n="nav.products">Home</a>
-          <a href="#home" class="navbar__mobile-link" data-i18n="nav.solutions">Features</a>
-          <a href="#home" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
-          <a href="#home" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
-          <a href="#home" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
+          <a href="#features" class="navbar__mobile-link" data-i18n="nav.solutions">Features</a>
+          <a href="#about-product" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
+          <a href="#why" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
+          <a href="#contact" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
         </div>
 
         <div class="navbar__mobile-language">
@@ -700,6 +701,59 @@
       </div>
     </section>
   </main>
+
+  <footer class="site-footer" role="contentinfo" data-section-owner="feature/footer">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <img src="assets/images/final-section/footer-brand.png" alt="ColdTrace logo" class="site-footer__logo" width="248" height="84">
+        <div class="site-footer__social" aria-label="Social links">
+          <a href="#x" aria-label="X">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><use href="assets/icons/footer-x.svg#icon"></use></svg>
+          </a>
+          <a href="#instagram" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><use href="assets/icons/footer-instagram.svg#icon"></use></svg>
+          </a>
+          <a href="#youtube" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><use href="assets/icons/footer-youtube.svg#icon"></use></svg>
+          </a>
+          <a href="#linkedin" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><use href="assets/icons/footer-linkedin.svg#icon"></use></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="site-footer__column" aria-label="Product links">
+        <h3 data-i18n="footer.columns.product.title">Product</h3>
+        <a href="#templates" data-i18n="footer.columns.product.items.templates">Templates</a>
+        <a href="#guides" data-i18n="footer.columns.product.items.guides">Guides</a>
+        <a href="#inspiration" data-i18n="footer.columns.product.items.inspiration">Inspiration</a>
+        <a href="#product" data-i18n="footer.columns.product.items.product">Product</a>
+        <a href="#mobile-app" data-i18n="footer.columns.product.items.mobile">Download the Mobile app</a>
+        <a href="#desktop-app" data-i18n="footer.columns.product.items.desktop">Download the Desktop app</a>
+        <a href="#team-collaboration" data-i18n="footer.columns.product.items.team">Team collaboration</a>
+      </nav>
+
+      <nav class="site-footer__column" aria-label="Support links">
+        <h3 data-i18n="footer.columns.support.title">Support</h3>
+        <a href="mailto:support@gmail.com" data-i18n="footer.columns.support.items.email">support@gmail.com</a>
+        <a href="#help-center" data-i18n="footer.columns.support.items.help">Help center</a>
+        <a href="#pricing" data-i18n="footer.columns.support.items.pricing">Plans & pricing</a>
+        <a href="#upcoming" data-i18n="footer.columns.support.items.upcoming">Upcoming features</a>
+        <a href="#collaboration" data-i18n="footer.columns.support.items.collaboration">Collaboration features</a>
+        <a href="#release-notes" data-i18n="footer.columns.support.items.release">Release notes</a>
+        <a href="#status" data-i18n="footer.columns.support.items.status">Application status</a>
+      </nav>
+
+      <nav class="site-footer__column" aria-label="Resources links">
+        <h3 data-i18n="footer.columns.resources.title">Resources</h3>
+        <a href="#blog" data-i18n="footer.columns.resources.items.blog">Blog</a>
+        <a href="#careers" data-i18n="footer.columns.resources.items.careers">Careers</a>
+        <a href="#social" data-i18n="footer.columns.resources.items.social">Social media</a>
+        <a href="#library" data-i18n="footer.columns.resources.items.library">Resource library</a>
+        <a href="#developers" data-i18n="footer.columns.resources.items.developers">Developers</a>
+      </nav>
+    </div>
+  </footer>
 
   <script src="assets/scripts/i18n.js" defer></script>
   <script src="assets/scripts/navigation.js" defer></script>
