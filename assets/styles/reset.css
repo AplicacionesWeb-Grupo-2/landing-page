@@ -13,16 +13,24 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: var(--font-family-base);
   line-height: 1.5;
-  color: var(--color-text);
-  background: var(--color-background);
+  -webkit-font-smoothing: antialiased;
 }
 
 img,
+picture,
+video,
+canvas,
 svg {
   display: block;
   max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
 a {
@@ -30,6 +38,7 @@ a {
   text-decoration: none;
 }
 
-button {
-  font: inherit;
+ul,
+ol {
+  list-style: none;
 }
