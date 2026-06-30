@@ -1,0 +1,23 @@
+.videos-section {
+  padding-top: clamp(68px, 5.5vw, 96px);
+  padding-bottom: clamp(76px, 6vw, 108px);
+}
+
+.videos-section .section-header {
+  margin-bottom: clamp(40px, 4vw, 64px);
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(24px, 3vw, 48px);
+  flex-wrap: wrap;
+}
+
+.videos-container iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
