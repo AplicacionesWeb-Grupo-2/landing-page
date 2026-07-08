@@ -582,60 +582,21 @@
       </div>
     </section>
 
-    <section id="pricing" class="overview-section" aria-labelledby="overview-title" data-section-owner="feature/overview-signup">
-      <h2 id="overview-title" class="visually-hidden" data-i18n="overview.title">How ColdTrace works</h2>
+    <section id="pricing" class="pricing-section" aria-labelledby="pricing-title" data-section-owner="feature/US055-plan-comparison">
+      <div class="pricing-section__inner">
+        <header class="pricing-section__header">
+          <span class="pricing-section__eyebrow" data-i18n="pricing.eyebrow">Plans & pricing</span>
+          <h2 id="pricing-title" data-i18n="pricing.title">Choose the plan that matches your cold-chain operation</h2>
+          <p data-i18n="pricing.subtitle">Compare Base, Operations, and Compliance AI with the same catalog used by the platform.</p>
+          <p class="pricing-section__status" data-pricing-status role="status" hidden></p>
+        </header>
 
-      <nav class="overview-rail" aria-label="Platform sections">
-        <button type="button" class="overview-rail__item">
-          <img class="overview-rail__icon" src="assets/images/overview/register-icon.png" alt="" loading="lazy" decoding="async">
-          <span class="overview-rail__label" data-i18n="overview.rail.register">Register</span>
-        </button>
-
-        <button type="button" class="overview-rail__item">
-          <img class="overview-rail__icon" src="assets/images/overview/resources-icon.png" alt="" loading="lazy" decoding="async">
-          <span class="overview-rail__label" data-i18n="overview.rail.resources">Resources</span>
-        </button>
-
-        <button type="button" class="overview-rail__item">
-          <img class="overview-rail__icon" src="assets/images/overview/pricing-icon.png" alt="" loading="lazy" decoding="async">
-          <span class="overview-rail__label" data-i18n="overview.rail.pricing">Pricing</span>
-        </button>
-
-        <button type="button" class="overview-rail__item">
-          <img class="overview-rail__icon" src="assets/images/overview/community-icon.png" alt="" loading="lazy" decoding="async">
-          <span class="overview-rail__label" data-i18n="overview.rail.community">Community</span>
-        </button>
-
-        <button type="button" class="overview-rail__item">
-          <img class="overview-rail__icon" src="assets/images/overview/contact-icon.png" alt="" loading="lazy" decoding="async">
-          <span class="overview-rail__label" data-i18n="overview.rail.contact">Contact</span>
-        </button>
-      </nav>
-
-      <div class="overview-grid">
-        <article class="overview-card">
-          <div class="overview-card__head">
-            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
-            <h3 data-i18n="overview.columns.configure.title">Configure</h3>
-          </div>
-          <p data-i18n="overview.columns.configure.body">Assign sensors by cold room, define ranges and tolerances by product type, and choose responsible staff by shift. Everything is versioned.</p>
-        </article>
-
-        <article class="overview-card">
-          <div class="overview-card__head">
-            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
-            <h3 data-i18n="overview.columns.monitor.title">Monitor</h3>
-          </div>
-          <p data-i18n="overview.columns.monitor.body">View by site, by zone, and by asset. Complete historical records, exportable in CSV or PDF. Alerts arrive before the product is damaged.</p>
-        </article>
-
-        <article class="overview-card">
-          <div class="overview-card__head">
-            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
-            <h3 data-i18n="overview.columns.audit.title">Audit</h3>
-          </div>
-          <p data-i18n="overview.columns.audit.body">Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!</p>
-        </article>
+        <div class="pricing-grid" data-pricing-grid aria-live="polite">
+          <article class="pricing-card pricing-card--loading">
+            <h3 data-i18n="pricing.loading.title">Loading plans</h3>
+            <p data-i18n="pricing.loading.body">Preparing the latest ColdTrace catalog.</p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -756,6 +717,7 @@
   </footer>
 
   <script src="assets/scripts/i18n.js" defer></script>
+  <script src="assets/scripts/pricing-plans.js" defer></script>
   <script src="assets/scripts/navigation.js" defer></script>
   <script src="assets/scripts/main.js" defer></script>
   <script src="assets/scripts/scroll-reveal.js" defer></script>
