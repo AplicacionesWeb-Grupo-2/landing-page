@@ -154,6 +154,15 @@
       }
     }
   },
+  "pricing": {
+    "eyebrow": "Plans & pricing",
+    "title": "Choose the plan that matches your cold-chain operation",
+    "subtitle": "Compare Base, Operations, and Compliance AI with the same catalog used by the platform.",
+    "loading": {
+      "title": "Loading plans",
+      "body": "Preparing the latest ColdTrace catalog."
+    }
+  },
   "overview": {
     "title": "How ColdTrace works",
     "rail": {
