@@ -315,6 +315,11 @@ body.motion-enabled .signup-card:hover {
 }
 
 @media (max-width: 560px) {
+  .signup-shell__stage {
+    min-height: 0;
+    padding-bottom: 48px;
+  }
+
   .signup-shell__art {
     display: none;
   }
