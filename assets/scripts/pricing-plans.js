@@ -4,12 +4,9 @@
 
 (() => {
   const DEFAULT_API_BASE_URL = 'https://coldtrace-platform-3kti2ylcba-uc.a.run.app/api/v1';
-  const DEFAULT_APP_BASE_URL = 'https://coldtrace-frontend-web.vercel.app';
-  const SIGN_UP_PATH = '/identity-access/sign-up';
   const PLAN_ORDER = ['base', 'operations', 'compliance-ai'];
 
   const apiBaseUrl = (window.COLDTRACE_API_BASE_URL || DEFAULT_API_BASE_URL).replace(/\/+$/, '');
-  const appBaseUrl = (window.COLDTRACE_APP_URL || DEFAULT_APP_BASE_URL).replace(/\/+$/, '');
 
   const fallbackPlans = [
     {
@@ -309,8 +306,7 @@
   }
 
   function signUpUrl(planCode) {
-    const query = new URLSearchParams({ plan: planCode });
-    return `${appBaseUrl}${SIGN_UP_PATH}?${query.toString()}`;
+    return window.ColdTraceAppRoutes.signUp({ plan: planCode });
   }
 
   function appendTextElement(parent, tagName, className, textContent) {
