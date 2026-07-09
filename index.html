@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/styles/components/hero.css">
   <link rel="stylesheet" href="assets/styles/components/features.css">
   <link rel="stylesheet" href="assets/styles/components/showcase.css">
+  <link rel="stylesheet" href="assets/styles/components/videos.css">
   <link rel="stylesheet" href="assets/styles/components/why.css">
   <link rel="stylesheet" href="assets/styles/components/pricing.css">
   <link rel="stylesheet" href="assets/styles/components/signup.css">
@@ -40,6 +41,7 @@
         <li><a href="#features" class="nav-pill" data-i18n="nav.solutions">Features</a></li>
         <li><a href="#about-product" class="nav-pill" data-i18n="nav.community">Platform</a></li>
         <li><a href="#why" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
+        <li><a href="#team" class="nav-pill" data-i18n="nav.team">Team</a></li>
         <li><a href="#contact" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
@@ -58,6 +60,7 @@
           <a href="#features" class="navbar__mobile-link" data-i18n="nav.solutions">Features</a>
           <a href="#about-product" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
           <a href="#why" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
+          <a href="#team" class="navbar__mobile-link" data-i18n="nav.team">Team</a>
           <a href="#contact" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
         </div>
 
@@ -523,6 +526,28 @@
       </div>
     </section>
 
+    <section id="about-product-video" class="video-section" aria-labelledby="about-product-video-title">
+      <header class="video-section__header" data-reveal>
+        <h2 id="about-product-video-title" data-i18n="aboutProduct.title">See ColdTrace in action</h2>
+        <p data-i18n="aboutProduct.subtitle">A short overview of how ColdTrace centralizes cold-chain monitoring, alerts, and audit-ready reports.</p>
+      </header>
+
+      <div class="video-frame" data-reveal="scale-in">
+        <iframe
+          src="https://upcedupe-my.sharepoint.com/personal/u202414054_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=928c64a6-ad61-4fe9-8dec-1809a7d14686&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create"
+          title="ColdTrace - About the Product video"
+          data-i18n-title="aboutProduct.videoTitle"
+          loading="lazy"
+          allow="fullscreen; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-section__fallback">
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414054_upc_edu_pe/IQCmZIySYa3pT43sGAmn0UaGAfUnEK7pyE9kdDZWjSlXGX4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=1oulNb" target="_blank" rel="noopener noreferrer" data-i18n="aboutProduct.externalLink">Open the product video in Microsoft Stream</a>
+      </p>
+    </section>
+
     <section id="why" class="why-section" aria-labelledby="why-title" data-section-owner="feature/showcase-why">
       <header class="why-section__header">
         <h2 id="why-title" data-i18n="why.title">Why ColdTrace?</h2>
@@ -598,6 +623,56 @@
           </article>
         </div>
       </div>
+    </section>
+
+    <section id="team" class="team-section" aria-labelledby="team-title">
+      <header class="video-section__header" data-reveal>
+        <h2 id="team-title" data-i18n="team.title">Meet the team behind ColdTrace</h2>
+        <p data-i18n="team.subtitle">Meet the people building ColdTrace and learn how the team brought the product to life.</p>
+      </header>
+
+      <ul class="team-grid" role="list" data-reveal="scale-in">
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/jean.png" alt="Jean Pool Alexander Arias Tasayco" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Arias Tasayco, Jean Pool Alexander</h3>
+          <p data-i18n="team.role">Software Engineering</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/mauricio.jpeg" alt="Mauricio Luis Pajes Leon" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Pajes Leon, Mauricio Luis</h3>
+          <p data-i18n="team.role">Software Engineering</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/leonardo.png" alt="Leonardo Sebastian Delgado Arriola" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Delgado Arriola, Leonardo Sebastian</h3>
+          <p data-i18n="team.role">Software Engineering</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/santiago.jpeg" alt="Santiago Enrique Vargas Alarcon" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Vargas Alarcon, Santiago Enrique</h3>
+          <p data-i18n="team.role">Software Engineering</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/eduardo.png" alt="Eduardo David Velasquez Laquihuanaco" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Velasquez Laquihuanaco, Eduardo David</h3>
+          <p data-i18n="team.role">Software Engineering</p>
+        </li>
+      </ul>
+
+      <div class="video-frame team-section__video" data-reveal>
+        <iframe
+          src="https://upcedupe-my.sharepoint.com/personal/u202414054_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=5a1e2d7b-bf18-46bc-836f-5d19f6dacb87&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create"
+          title="ColdTrace - About the Team video"
+          data-i18n-title="team.videoTitle"
+          loading="lazy"
+          allow="fullscreen; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-section__fallback">
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414054_upc_edu_pe/IQB7LR5aGL-8RoNvXRn22suHAQESryMX97Dk_Kc26UCQ6B0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=sRmsG2" target="_blank" rel="noopener noreferrer" data-i18n="team.externalLink">Open the team video in Microsoft Stream</a>
+      </p>
     </section>
 
     <section id="contact" class="signup-shell" aria-labelledby="contact-title" data-section-owner="feature/overview-signup">
@@ -691,7 +766,7 @@
         <a href="#product" data-i18n="footer.columns.product.items.product">Product</a>
         <a href="#mobile-app" data-i18n="footer.columns.product.items.mobile">Download the Mobile app</a>
         <a href="#desktop-app" data-i18n="footer.columns.product.items.desktop">Download the Desktop app</a>
-        <a href="#team-collaboration" data-i18n="footer.columns.product.items.team">Team collaboration</a>
+        <a href="#team" data-i18n="footer.columns.product.items.team">Team collaboration</a>
       </nav>
 
       <nav class="site-footer__column" aria-label="Support links">

@@ -45,6 +45,14 @@ function applyTranslations(translations) {
       element.setAttribute('aria-label', value);
     }
   });
+
+  document.querySelectorAll('[data-i18n-title]').forEach((element) => {
+    const key = element.getAttribute('data-i18n-title');
+    const value = resolveKey(translations, key);
+    if (typeof value === 'string') {
+      element.setAttribute('title', value);
+    }
+  });
 }
 
 async function setLocale(locale) {
