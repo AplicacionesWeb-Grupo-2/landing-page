@@ -118,6 +118,17 @@
       "cta": "View multi-site"
     }
   },
+  "screenshots": {
+    "title": "Project Screenshots",
+    "subtitle": "See the ColdTrace platform in action",
+    "cta": "Watch project videos",
+    "items": {
+      "dashboard": "Live dashboard overview",
+      "monitoring": "Real-time sensor monitoring",
+      "alerts": "Alerts and notifications",
+      "reports": "Compliance reports"
+    }
+  },
   "why": {
     "title": "Why ColdTrace?",
     "subtitle": "Designed for operations and quality managers in minimarkets, cold rooms, warehouses, and industrial kitchens.",
