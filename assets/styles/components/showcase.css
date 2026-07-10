@@ -248,6 +248,11 @@
   animation-play-state: running;
 }
 
+.showcase-panel--reverse.showcase-panel--visible .showcase-panel__visual,
+.showcase-panel--reverse.showcase-panel--visible .showcase-panel__copy {
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
 @keyframes showcase-float {
   0%,
   100% {
@@ -271,6 +276,11 @@
   .showcase-panel--motion .showcase-shot {
     animation: none;
     filter: none;
+  }
+
+  .showcase-panel--reverse.showcase-panel--motion .showcase-panel__visual,
+  .showcase-panel--reverse.showcase-panel--motion .showcase-panel__copy {
+    transform: none;
   }
 }
 

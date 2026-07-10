@@ -48,7 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
       items.forEach((item) => {
         const rect = item.getBoundingClientRect();
         const isInView = rect.top < viewportHeight * topFactor && rect.bottom > viewportHeight * bottomFactor;
-        item.classList.toggle(visibleClass, isInView);
+        if (isInView) {
+          item.classList.add(visibleClass);
+        }
       });
     };
 
@@ -58,7 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          entry.target.classList.toggle(visibleClass, entry.isIntersecting);
+          if (entry.isIntersecting) {
+            entry.target.classList.add(visibleClass);
+            observer.unobserve(entry.target);
+          }
         });
       },
       {
