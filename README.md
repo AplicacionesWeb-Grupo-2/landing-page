@@ -26,6 +26,16 @@ npm run dev
 
 Open <http://localhost:5173>.
 
+## Vue App Routing
+
+Landing authentication and registration links use `assets/scripts/app-routing.js`. The default Vue app URL can be overridden before that script loads:
+
+```html
+<script>window.COLDTRACE_APP_URL = 'https://app.example.com';</script>
+```
+
+The same route builder is used by plan CTAs so the selected `plan` query parameter reaches the Vue sign-up route.
+
 ## Branches
 
 - `develop`
