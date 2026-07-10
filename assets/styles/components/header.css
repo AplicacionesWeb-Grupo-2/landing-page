@@ -108,7 +108,10 @@
   left: 16px;
   right: 16px;
   display: none;
+  max-height: calc(100vh - 112px);
   padding: 14px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.96);
   box-shadow:
@@ -125,6 +128,24 @@
 .navbar__mobile-links {
   display: grid;
   gap: 6px;
+}
+
+.navbar__mobile-actions {
+  display: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(127, 133, 149, 0.16);
+}
+
+.navbar__mobile-actions .btn {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+  padding-inline: 12px;
+  white-space: normal;
+  text-align: center;
 }
 
 .navbar__mobile-link {

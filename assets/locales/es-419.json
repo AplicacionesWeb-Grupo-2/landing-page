@@ -9,7 +9,8 @@
     "more": "Menú",
     "language": "Idioma",
     "signin": "Iniciar sesión",
-    "register": "Regístrate"
+    "register": "Regístrate",
+    "team": "Equipo"
   },
   "hero": {
     "title": "Toda tu infraestructura de almacenamiento en una sola plataforma inteligente",
@@ -61,8 +62,17 @@
     }
   },
   "aboutProduct": {
-    "title": "ColdTrace en acción",
-    "subtitle": "Mira un recorrido breve por la plataforma."
+    "title": "Descubre ColdTrace en acción",
+    "subtitle": "Un recorrido breve por cómo ColdTrace centraliza el monitoreo de la cadena de frío, las alertas y los reportes listos para auditoría.",
+    "videoTitle": "ColdTrace - Video About-the-Product",
+    "externalLink": "Abrir el video del producto en Microsoft Stream"
+  },
+  "team": {
+    "title": "Conoce al equipo detrás de ColdTrace",
+    "subtitle": "Conoce a las personas que construyen ColdTrace y cómo el equipo llevó el producto a la realidad.",
+    "videoTitle": "ColdTrace - Video About-the-Team",
+    "externalLink": "Abrir el video del equipo en Microsoft Stream",
+    "role": "Ingeniería de Software"
   },
   "productShowcase": {
     "a11yTitle": "Recorrido de la plataforma ColdTrace",
@@ -119,12 +129,12 @@
     }
   },
   "screenshots": {
-    "title": "Capturas del Proyecto",
-    "subtitle": "Observa la plataforma ColdTrace en acción",
-    "cta": "Ver videos del proyecto",
+    "title": "ColdTrace en operación",
+    "subtitle": "Explora pantallas reales de la plataforma entregada.",
+    "cta": "Ver el video del producto",
     "items": {
-      "dashboard": "Vista general del dashboard",
-      "monitoring": "Monitoreo de sensores en tiempo real",
+      "dashboard": "Dashboard operativo",
+      "monitoring": "Monitoreo de activos en tiempo real",
       "alerts": "Alertas y notificaciones",
       "reports": "Reportes de cumplimiento"
     }
@@ -163,6 +173,15 @@
         "role": "Director de cumplimiento",
         "name": "Jorge Castillo"
       }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Planes y precios",
+    "title": "Elige el plan que calza con tu operacion de cadena de frio",
+    "subtitle": "Compara Base, Operations y Compliance AI con el mismo catalogo usado por la plataforma.",
+    "loading": {
+      "title": "Cargando planes",
+      "body": "Preparando el catalogo mas reciente de ColdTrace."
     }
   },
   "overview": {
@@ -205,7 +224,7 @@
     },
     "terms": {
       "prefix": "Al crear tu cuenta, aceptas los",
-      "link": "Términos y condiciones."
+      "link": "Términos y Condiciones."
     },
     "alt": "o regístrate con",
     "google": "Regístrate con Google",
@@ -240,14 +259,55 @@
       },
       "resources": {
         "title": "Recursos",
-      "items": {
-        "blog": "Blog",
-        "careers": "Empleos",
-        "social": "Redes sociales",
-        "library": "Biblioteca de recursos",
-        "developers": "Desarrolladores"
+        "items": {
+          "blog": "Blog",
+          "careers": "Empleos",
+          "social": "Redes sociales",
+          "library": "Biblioteca de recursos",
+          "developers": "Desarrolladores"
+        }
       }
+    },
+    "legal": {
+      "terms": "Términos y Condiciones"
     }
-  }
+  },
+  "terms": {
+    "backHome": "Volver al inicio",
+    "title": "Términos y Condiciones",
+    "updated": "Última actualización: julio de 2026",
+    "intro": "Estos Términos y Condiciones rigen el uso de la plataforma ColdTrace y de su landing page y aplicación web asociadas. Al acceder o utilizar nuestros servicios, aceptas quedar vinculado por estos términos. Por favor, léelos con atención.",
+    "s1": {
+      "title": "1. Aceptación de los términos",
+      "body": "Al crear una cuenta o utilizar cualquier parte de la plataforma ColdTrace, confirmas que has leído, comprendido y aceptado estos Términos y Condiciones, así como nuestras prácticas de tratamiento de datos."
+    },
+    "s2": {
+      "title": "2. Descripción del servicio",
+      "body": "ColdTrace ofrece una plataforma de monitoreo de la cadena de frío que centraliza los datos de temperatura, humedad y aperturas de puerta, envía alertas y genera reportes listos para auditoría. El servicio se brinda \"tal cual\" y \"según disponibilidad\"."
+    },
+    "s3": {
+      "title": "3. Responsabilidades del usuario",
+      "body": "Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta y de toda actividad que ocurra bajo la misma. Aceptas utilizar la plataforma únicamente con fines lícitos y de acuerdo con estos términos."
+    },
+    "s4": {
+      "title": "4. Datos y privacidad",
+      "body": "Recopilamos y procesamos datos operativos con el único fin de brindar y mejorar el servicio de monitoreo. Nos comprometemos a tratar tu información de forma responsable y transparente, conforme a la normativa de protección de datos aplicable."
+    },
+    "s5": {
+      "title": "5. Compromiso profesional y ético",
+      "body": "ColdTrace se desarrolla siguiendo los principios profesionales y éticos del Código de Ética de Ingeniería de Software de ACM/IEEE y del Colegio de Ingenieros del Perú (CIP). Buscamos actuar en interés público, entregar software de calidad y mantener la integridad y la transparencia durante todo el ciclo de vida del producto."
+    },
+    "s6": {
+      "title": "6. Limitación de responsabilidad",
+      "body": "ColdTrace no será responsable por daños indirectos, incidentales o consecuentes que surjan del uso o la imposibilidad de uso de la plataforma, en la máxima medida permitida por la ley aplicable."
+    },
+    "s7": {
+      "title": "7. Cambios en estos términos",
+      "body": "Podemos actualizar estos Términos y Condiciones periódicamente. Cualquier cambio relevante se reflejará en esta página con una fecha de revisión actualizada. El uso continuado de la plataforma tras los cambios constituye la aceptación de los términos revisados."
+    },
+    "s8": {
+      "title": "8. Contacto",
+      "body": "Ante cualquier consulta sobre estos Términos y Condiciones, escríbenos a support@coldtrace.com."
+    }
   }
 }

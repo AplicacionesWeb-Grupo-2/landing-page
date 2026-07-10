@@ -140,6 +140,11 @@
 }
 
 @media (max-width: 560px) {
+  .site-footer {
+    margin-top: 0;
+    padding-top: 48px;
+  }
+
   .site-footer__brand {
     gap: 14px;
   }
