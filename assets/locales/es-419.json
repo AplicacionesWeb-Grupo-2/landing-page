@@ -128,6 +128,17 @@
       "cta": "Ver multisede"
     }
   },
+  "screenshots": {
+    "title": "ColdTrace en operación",
+    "subtitle": "Explora pantallas reales de la plataforma entregada.",
+    "cta": "Ver el video del producto",
+    "items": {
+      "dashboard": "Dashboard operativo",
+      "monitoring": "Monitoreo de activos en tiempo real",
+      "alerts": "Alertas y notificaciones",
+      "reports": "Reportes de cumplimiento"
+    }
+  },
   "why": {
     "title": "¿Por qué ColdTrace?",
     "subtitle": "Diseñado para responsables de operaciones y calidad en minimarkets, cámaras frías, almacenes y cocinas industriales.",

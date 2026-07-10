@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/styles/components/hero.css">
   <link rel="stylesheet" href="assets/styles/components/features.css">
   <link rel="stylesheet" href="assets/styles/components/showcase.css">
+  <link rel="stylesheet" href="assets/styles/components/screenshots.css">
   <link rel="stylesheet" href="assets/styles/components/videos.css">
   <link rel="stylesheet" href="assets/styles/components/why.css">
   <link rel="stylesheet" href="assets/styles/components/pricing.css">
@@ -361,9 +362,9 @@
         <article class="showcase-panel showcase-panel--thermal">
           <div class="showcase-panel__visual showcase-panel__visual--thermal" aria-hidden="true">
             <img
-              class="showcase-shot showcase-shot--thermal"
-              src="assets/images/showcase/trimmed/thermal-trim.png"
-              alt=""
+              class="showcase-shot showcase-shot--thermal showcase-shot--real"
+              src="assets/images/screenshots/monitoring.png"
+              alt="ColdTrace real-time asset monitoring"
               loading="lazy"
               decoding="async"
             >
@@ -435,9 +436,9 @@
 
           <div class="showcase-panel__visual showcase-panel__visual--alerts" aria-hidden="true">
             <img
-              class="showcase-shot showcase-shot--alerts"
-              src="assets/images/showcase/trimmed/alerts-trim.png"
-              alt=""
+              class="showcase-shot showcase-shot--alerts showcase-shot--real"
+              src="assets/images/screenshots/alerts.png"
+              alt="ColdTrace alerts and notification management"
               loading="lazy"
               decoding="async"
             >
@@ -447,9 +448,9 @@
         <article class="showcase-panel showcase-panel--history">
           <div class="showcase-panel__visual showcase-panel__visual--history" aria-hidden="true">
             <img
-              class="showcase-shot showcase-shot--history"
-              src="assets/images/showcase/trimmed/history-trim.png"
-              alt=""
+              class="showcase-shot showcase-shot--history showcase-shot--real"
+              src="assets/images/screenshots/reports.png"
+              alt="ColdTrace daily compliance report"
               loading="lazy"
               decoding="async"
             >
@@ -520,14 +521,44 @@
 
           <div class="showcase-panel__visual showcase-panel__visual--sites" aria-hidden="true">
             <img
-              class="showcase-shot showcase-shot--sites"
-              src="assets/images/showcase/trimmed/sites-trim.png"
-              alt=""
+              class="showcase-shot showcase-shot--sites showcase-shot--real"
+              src="assets/images/screenshots/dashboard.png"
+              alt="ColdTrace operational dashboard"
               loading="lazy"
               decoding="async"
             >
           </div>
         </article>
+      </div>
+    </section>
+
+    <section id="screenshots" class="screenshots-section" aria-labelledby="screenshots-title">
+      <header class="section-header" data-reveal>
+        <h2 id="screenshots-title" data-i18n="screenshots.title">ColdTrace in operation</h2>
+        <p class="section-header__lead" data-i18n="screenshots.subtitle">Explore real screens from the delivered platform.</p>
+      </header>
+
+      <div class="screenshots-grid">
+        <figure class="screenshot-card" data-reveal style="--reveal-delay: 0ms">
+          <img src="assets/images/screenshots/dashboard.png" alt="ColdTrace operational dashboard" loading="lazy" decoding="async">
+          <figcaption data-i18n="screenshots.items.dashboard">Operational dashboard</figcaption>
+        </figure>
+        <figure class="screenshot-card" data-reveal style="--reveal-delay: 100ms">
+          <img src="assets/images/screenshots/monitoring.png" alt="ColdTrace real-time asset monitoring" loading="lazy" decoding="async">
+          <figcaption data-i18n="screenshots.items.monitoring">Real-time asset monitoring</figcaption>
+        </figure>
+        <figure class="screenshot-card" data-reveal style="--reveal-delay: 200ms">
+          <img src="assets/images/screenshots/alerts.png" alt="ColdTrace alerts and notification management" loading="lazy" decoding="async">
+          <figcaption data-i18n="screenshots.items.alerts">Alerts and notifications</figcaption>
+        </figure>
+        <figure class="screenshot-card" data-reveal style="--reveal-delay: 300ms">
+          <img src="assets/images/screenshots/reports.png" alt="ColdTrace daily compliance report" loading="lazy" decoding="async">
+          <figcaption data-i18n="screenshots.items.reports">Compliance reports</figcaption>
+        </figure>
+      </div>
+
+      <div class="screenshots-cta" data-reveal>
+        <a href="#about-product-video" class="btn btn--primary" data-i18n="screenshots.cta">Watch the product video</a>
       </div>
     </section>
 
